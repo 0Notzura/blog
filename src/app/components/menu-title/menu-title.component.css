@@ -1,0 +1,9 @@
+.menu--title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.menu--title h1{
+    font-size: 100px;
+    font-weight: bolder;    
+    text-align: center;
+}
