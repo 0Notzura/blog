@@ -1,7 +1,7 @@
 <div class="big_card">
     <div class="big_card--photo">
       <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJiT-UHSm6w0Jperb8SitpfoAKeMUE3uynPg5YO-2Drw&s"
+        src="{{photo}}"
         alt=""
         height="200px"
       />
@@ -9,17 +9,14 @@
   <div class="big_card--texts">
     <div>
         <div class="big_card--title">
-          <h2><a href="">Titulo mockado</a></h2>
+          <h2><a [routerLink]="['content',Id]">{{title}}</a></h2>
         </div>
       </div>
       <div>
         <div class="big_card--description">
           <p>
-            <a href="">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut
-              architecto corporis vel. Ea tempore excepturi id, commodi distinctio
-              consequuntur, autem sint eligendi ullam deleniti quas soluta quaerat
-              necessitatibus sapiente voluptates!
+            <a [routerLink]="['content',Id]">
+              {{description}}
             </a>
           </p>
         </div>
