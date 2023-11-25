@@ -1,4 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+html{
+    font-size: 10px;
+}
 *{
     background-color: #111111;
     color: white;
@@ -9,4 +12,24 @@
 }
 a{
     text-decoration: none;
+}
+@media (max-width:1150px) {
+    html{
+        font-size: 8px;
+    }
+}
+@media (max-width:1150px) {
+    html{
+        font-size: 8px;
+    }
+}
+@media (max-width:820px) {
+    html{
+        font-size: 7px;
+    }
+}
+@media (max-width:320px) {
+    html{
+        font-size: 5px;
+    }
 }

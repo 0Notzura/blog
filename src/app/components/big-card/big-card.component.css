@@ -1,7 +1,7 @@
 .big_card{
     margin: 0 10px;
-    width: 400px;
-    height: 500px;
+    width: 40rem;
+    height: 50rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -9,13 +9,39 @@
 }
 .big_card--title h2{
     margin-top: 15px;
-    font-size: 40px;
+    font-size: 4rem;
 }
 .big_card--description p a{
     margin-top: 10px;
     color: gray;
+    font-size: 2rem;
+}
+.big_card--photo{
+    min-width: 40rem;
 }
 .big_card--photo img{
-    min-width: 400px;
     width: 100%;
+    height: fit-content;
+}
+@media (max-width:720px) {
+    .big_card{
+        min-width: 50%;
+        margin: auto;
+        height: fit-content;
+    }
+    .big_card--texts{
+        width: 100%;
+    }
+    .big_card--photo{
+        width: 100%;
+    }
+}
+@media (max-width:500px) {
+    .big_card{
+        align-items: center;
+    }
+    .big_card--photo img{
+        min-width: 30rem;
+        height: fit-content;
+    }
 }

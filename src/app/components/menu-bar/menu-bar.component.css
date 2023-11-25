@@ -4,6 +4,7 @@
 .menu_bar > ul{
     display: flex;
     list-style: none;
+    font-size: 20px;
 }
 .menu_bar li{
     margin-right: 20px;

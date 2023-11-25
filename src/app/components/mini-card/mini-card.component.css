@@ -1,13 +1,14 @@
 .small_card{
-    width: 700px;
+    width: fit-content;
+    max-width: 70rem;
     display: flex;
     border-bottom: 2px solid white  ;
     padding: 15px;
     margin-bottom: 15px;
 }
-.small_card--photo>img{
-    width:300px;
-    min-width: 300px;
+.small_card--photo img{
+    width:30rem;
+    min-width: 30rem;
     height: auto;
     margin-right: 20px;
 }
@@ -17,4 +18,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media (max-width:500px) {
+    .small_card--photo img{
+        width: 20rem;
+        min-width: 20rem;
+    }
 }
